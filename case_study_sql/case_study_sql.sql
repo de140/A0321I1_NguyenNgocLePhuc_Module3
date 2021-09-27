@@ -146,8 +146,8 @@ insert into loaikhach(tenLoaiKhach) values
 ('Silver'),
 ('Member');
 insert into khachhang(idLoaiKhach,hoTen,ngaySinh,soCMTND,sdt,email,diaChi) values
-(1,'Bui Tien Dung','1997-12-02','011241212451','0975646259','dungbui@gmail.com','Phuc Thinh'),
-(2,'Nguyen Tien Dung','1998-03-04','45612313854','0974878888','dungnguyen@gmail.com','KonTum'),
+(1,'Bui Tien Dung','1997-12-02','011241212451','0975646259','dungbui@gmail.com','Vinh'),
+(2,'Nguyen Tien Dung','1998-03-04','45612313854','0974878888','dungnguyen@gmail.com','Quang Ngai'),
 (2,'Doan Van Hau','1998-02-21','123451622450','0372222648','haungao@gmail.com','Ha Noi'),
 (1,'Phan Van Tai Em','1982-07-18','453145612','0374444555','empro@gmail.com','Long An');
 insert into kieuthue(tenKieuThue, gia) values
