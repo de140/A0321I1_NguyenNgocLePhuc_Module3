@@ -116,6 +116,7 @@ CREATE TABLE hopdongchitiet (
     FOREIGN KEY (idDichVuDiKem)
         REFERENCES dichvudikem (idDichVuDiKem)
 );
+
 -- Chèn dữ liệu
 insert into vitri(tenViTri) values
 ('le tan'),
@@ -135,10 +136,9 @@ insert into bophan(tenBoPhan) values
 ('quan ly');
 insert into nhanvien(hoTen,idViTri,idTrinhDo,idBoPhan,ngaySinh,soCMTND,luong,sdt,email,diaChi) values
 ('Nguyen Ngoc Le Phuc',4,3,1,'2000-10-04','044200000875',10000000,'0972412811','phucnnlde140045@fpt.edu.vn','Da Nang'),
-('Ho Quoc Kien',5,3,2,'1999-15-06','044200000214',10000000,'0377945122','kienh@gmail.com','Quang Nam'),
+('Ho Quoc Kien',5,3,2,'1999-06-15','044200000214',10000000,'0377945122','kienh@gmail.com','Quang Nam'),
 ('Nguyen Minh Anh Tuan',6,3,4,'2000-01-06','044200000217',8000000,'0972111541','tuannma@gmail.com','Quang Nam'),
 ('Nguyen Huu Quan',6,3,4,'2000-03-06','044200000123',8000000,'0378546124','quannh@gmail.com','Da Nang');
-
 insert into loaikhach(tenLoaiKhach) values
 ('Diamond'),
 ('Platinium'),
@@ -176,14 +176,13 @@ insert into dichvudikem (tenDichVuDiKem, gia, donVi, trangThaiKhaDung) values
 ('thue xe', 500000, 'VND', 'still');
 
 insert into hopdong (idNhanvien, idKhachHang, idDichVu,ngayLamHopDong, ngayKetThuc, tienDatCoc,tongtien) values
-(2, 2, 1,'2021-02-06', '2021-02-24', 5000000,10000000),
-(2, 3, 4,'2021-02-06', '2021-02-24', 5000000,10000000),
-(2, 3, 3,'2020-02-06', '2020-02-24', 5000000,10000000),
-(3, 1, 2,'2021-04-06', '2021-05-18', 6000000,10000000);
+(5, 9, 22,'2021-02-06', '2021-02-24', 5000000,10000000),
+(6, 10, 23,'2021-02-06', '2021-02-24', 5000000,10000000),
+(7, 11, 24,'2020-02-06', '2020-02-24', 5000000,10000000),
+(8, 12, 25,'2021-04-06', '2021-05-18', 5000000,10000000);
 insert into hopdongchitiet(idHopDong,idDichVuDiKem,soLuong) values
-(1,5,2),
-(2,1,5);
-
+(25,5,2),
+(26,1,5);
 -- Requirement
 -- câu 2.Hiển thị thông tin của tất cả nhân viên có trong hệ thống có tên bắt đầu là một trong các ký tự “H”, “T” hoặc “K” 
 -- và có tối đa 15 ký tự.
