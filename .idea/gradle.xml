@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/bai11_mvc_model/bai_tap/product_management" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/bai11_mvc_model/bai_tap/product_management" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/bai11_mvc_model/thuc_hanh/ung_dung_quan_ly_khac_hang" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/bai11_mvc_model/thuc_hanh/ung_dung_quan_ly_khac_hang" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

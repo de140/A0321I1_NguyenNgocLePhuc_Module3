@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/bai11_mvc_model/bai_tap/product_management" />
+    <file type="web" url="file://$PROJECT_DIR$/bai11_mvc_model/thuc_hanh/ung_dung_quan_ly_khac_hang" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
